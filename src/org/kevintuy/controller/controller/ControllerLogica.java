@@ -8,6 +8,12 @@ package org.kevintuy.controller.controller;
  *
  * @author informatica
  */
-public class ControllerLogica {
+public class ControllerLogica {public boolean verificarEdad(int edad) {
+    if (edad >= 18) {
+        return true;
+    } else {
+        return false;
+    }
+}
     
 }
