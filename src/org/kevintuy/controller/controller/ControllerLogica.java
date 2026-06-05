@@ -8,7 +8,9 @@ package org.kevintuy.controller.controller;
  *
  * @author informatica
  */
-public class ControllerLogica {public boolean verificarEdad(int edad) {
+public class ControllerLogica 
+
+{public boolean verificarEdad(int edad) {
     if (edad >= 18) {
         return true;
     } else {
@@ -19,6 +21,16 @@ public class ControllerLogica {public boolean verificarEdad(int edad) {
         return true;
     } else {
         return false;
+    }
+    
+}
+public String semaforo(String color) {
+    if (color.equals("verde")) {
+        return "Avanzar";
+    } else if (color.equals("amarillo")) {
+        return "Precaución";
+    } else {
+        return "Detenerse";
     }
 }
     
