@@ -75,5 +75,11 @@ public boolean esTriangulo(int a, int b, int c) {
         return false;
     }
 }
-
+public boolean sonIguales(String palabra1, String palabra2) {
+    if (palabra1.equals(palabra2)) {
+        return true;
+    } else {
+        return false;
+    }
+}
 }
