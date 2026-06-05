@@ -33,5 +33,12 @@ public String semaforo(String color) {
         return "Detenerse";
     }
 }
-    
+  public boolean estaEnRango(int num, int min, int max) {
+    if (num >= min && num <= max) {
+        return true;
+    } else {
+        return false;
+    }
+}
+  
 }
