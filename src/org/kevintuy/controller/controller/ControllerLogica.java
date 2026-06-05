@@ -61,5 +61,12 @@ public boolean esBisiesto(int anio) {
         return false;
     }
 }
+public boolean notaFinal(int nota) {
+    if (nota >= 60) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 }
