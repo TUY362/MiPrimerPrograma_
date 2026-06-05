@@ -40,5 +40,12 @@ public String semaforo(String color) {
         return false;
     }
 }
-  
+public boolean login(String usuario, String pass) {
+    if (usuario.equals("admin") && pass.equals("1234")) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 }
